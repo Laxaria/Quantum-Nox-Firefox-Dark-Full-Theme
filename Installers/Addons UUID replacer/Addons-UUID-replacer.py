@@ -364,27 +364,27 @@ def addonsPatcher(FFprofile, UUIDDict):
                                   UUIDDict['anttoolbar@ant.com'])
                 # History autodelete
                 if isAddonInstalled[x] == "{7e79d10d-9667-4d38-838d-471281c568c3}":
-                   s = s.replace("TYPE-UUID-OF-HISTORY-AUTODELETE-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-HISTORY-AUTODELETE-ADDON-HERE", 
                                   UUIDDict['{7e79d10d-9667-4d38-838d-471281c568c3}'])
                 # Cookie autodelete
                 if isAddonInstalled[x] == "CookieAutoDelete@kennydo.com":
-                   s = s.replace("TYPE-UUID-OF-COOKIE-AUTODELETE-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-COOKIE-AUTODELETE-ADDON-HERE", 
                                   UUIDDict['CookieAutoDelete@kennydo.com'])
                 # Download Manager (S3)
                 if isAddonInstalled[x] == "s3download@statusbar":
-                   s = s.replace("TYPE-UUID-OF-DOWNLOAD-MANAGER-(S3)-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-DOWNLOAD-MANAGER-(S3)-ADDON-HERE", 
                                   UUIDDict['s3download@statusbar'])
                 # Forget me not
                 if isAddonInstalled[x] == "forget-me-not@lusito.info":
-                   s = s.replace("TYPE-UUID-OF-FORGET-ME-NOT-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-FORGET-ME-NOT-ADDON-HERE", 
                                   UUIDDict['forget-me-not@lusito.info'])
                 # HTTPS everywhere
                 if isAddonInstalled[x] == "https-everywhere@eff.org":
-                   s = s.replace("TYPE-THE-UUID-OF-HTTPS-EVERYWHERE-ADDON-HERE", 
+                    s = s.replace("TYPE-THE-UUID-OF-HTTPS-EVERYWHERE-ADDON-HERE", 
                                   UUIDDict['https-everywhere@eff.org'])
                 # Noscript
                 if isAddonInstalled[x] == "{73a6fe31-595d-460b-a920-fcc0f8843232}":
-                   s = s.replace("TYPE-UUID-OF-NOSCRIPT-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-NOSCRIPT-ADDON-HERE", 
                                   UUIDDict['{73a6fe31-595d-460b-a920-fcc0f8843232}'])
                 # Notifier for Gmail (restartless)
                 if isAddonInstalled[x] == "jid0-GjwrPchS3Ugt7xydvqVK4DQk8Ls@jetpack":
@@ -392,41 +392,41 @@ def addonsPatcher(FFprofile, UUIDDict):
                                   UUIDDict['jid0-GjwrPchS3Ugt7xydvqVK4DQk8Ls@jetpack'])
                 # Multi-accounts container
                 if isAddonInstalled[x] == "@testpilot-containers":
-                   s = s.replace("TYPE-THE-UUID-OF-MULTI-ACCOUNTS-CONTAINER-ADDON-HERE", 
+                    s = s.replace("TYPE-THE-UUID-OF-MULTI-ACCOUNTS-CONTAINER-ADDON-HERE", 
                                   UUIDDict['@testpilot-containers'])
                 # Onetab
                 if isAddonInstalled[x] == "extension@one-tab.com":
-                   s = s.replace("TYPE-THE-UUID-OF-ONETAB-ADDON-HERE", 
+                    s = s.replace("TYPE-THE-UUID-OF-ONETAB-ADDON-HERE", 
                                   UUIDDict['extension@one-tab.com'])
                 # Privacy Badger
                 if isAddonInstalled[x] == "jid1-MnnxcxisBPnSXQ@jetpack":
-                   s = s.replace("TYPE-UUID-OF-PRIVACY-BADGER-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-PRIVACY-BADGER-ADDON-HERE", 
                                   UUIDDict['jid1-MnnxcxisBPnSXQ@jetpack'])
                 # Tab Session Manager
                 if isAddonInstalled[x] == "Tab-Session-Manager@sienori":
-                   s = s.replace("TYPE-UUID-OF-TAB-SESSION-MANAGER-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-TAB-SESSION-MANAGER-ADDON-HERE", 
                                   UUIDDict['Tab-Session-Manager@sienori'])
                 # Temporary Containers
                 if isAddonInstalled[x] == "{c607c8df-14a7-4f28-894f-29e8722976af}":
-                   s = s.replace("TYPE-THE-UUID-OF-TEMPORARY-CONTAINERS-ADDON-HERE", 
+                    s = s.replace("TYPE-THE-UUID-OF-TEMPORARY-CONTAINERS-ADDON-HERE", 
                                   UUIDDict['{c607c8df-14a7-4f28-894f-29e8722976af}'])
                 # uBlock Origin
                 if isAddonInstalled[x] == "uBlock0@raymondhill.net":
-                   s = s.replace("TYPE-UUID-OF-UBLOCK-ORIGIN-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-UBLOCK-ORIGIN-ADDON-HERE", 
                                   UUIDDict['uBlock0@raymondhill.net'])
                 # uMatrix
                 if isAddonInstalled[x] == "uMatrix@raymondhill.net":
-                   s = s.replace("TYPE-UUID-OF-UMATRIX-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-UMATRIX-ADDON-HERE", 
                                   UUIDDict['uMatrix@raymondhill.net'])
 
                 # Video Download Helper
                 if isAddonInstalled[x] == "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}":
-                   s = s.replace("TYPE-UUID-OF-VIDEO-DOWNLOAD-HELPER-ADDON-HERE", 
+                    s = s.replace("TYPE-UUID-OF-VIDEO-DOWNLOAD-HELPER-ADDON-HERE", 
                                   UUIDDict['{b9db16a4-6edc-47ec-a1f4-b86292ed211d}'])
 
                 # Viewhance
                 if isAddonInstalled[x] == "{00000c4c-fcfd-49bc-9f0d-78db44456c9c}":
-                   s = s.replace("TYPE-THE-UUID-OF-VIEWHANCE-ADDON-HERE", 
+                    s = s.replace("TYPE-THE-UUID-OF-VIEWHANCE-ADDON-HERE", 
                                   UUIDDict['{00000c4c-fcfd-49bc-9f0d-78db44456c9c}'])
 
             f.seek(0, 0)
